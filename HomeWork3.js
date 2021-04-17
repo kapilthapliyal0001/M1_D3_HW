@@ -14,7 +14,14 @@ es:
 [1, 3, 5] ==> [5, 3, 1]
 */
 
+let arr = [1,3,5];
+let new_arr = [];
 
+for(i = arr.length - 1; i >=0; i--) {
+    new_arr.push(arr[i]);
+}
+
+console.log(new_arr);
 
 /* WRITE YOUR CODE HERE */
 
